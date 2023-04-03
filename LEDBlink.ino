@@ -10,5 +10,6 @@ void loop() {
   
   analogWrite(ledPin, HIGH);
   delay(100);
+  analogWrite(ledPin, LOW);
 
 }
