@@ -9,5 +9,6 @@ void setup() {
 void loop() {
   
   analogWrite(ledPin, HIGH);
+  delay(100);
 
 }
